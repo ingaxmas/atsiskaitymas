@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+	<title>HTML-Ingos projektas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="logo">
+				<img src="logo.png" alt="logo">
+			</div>
+			<div class="navup">
+				<nav>
+					<a href="#">Asociacija</a>
+					<a href="#">Filisofija</a>
+					<a href="#">Kontaktai</a>
+				</nav>
+			</div>
+			<div class="search">
+				<form>
+					<input class="search" type="text" id="search" name="paieska"
+					placeholder="paieska">
+					<button>Paieska</button>
+  				</form>
+			</div>
+			<nav>
+				<a href="#">Naujienos</a>
+				<a href="#">Veikla</a>
+				<a href="#">Stovyklos</a>
+				<a href="#">Mokytojai</a>
+				<a href="#">Straipsniai</a>
+			</nav>
+		</header>
+		<section>
+		<!-- Slideshow container -->
+			<div class="slideshow-container">
+  		<!-- Full-width images with number and caption text -->
+ 				<div class="mySlides fade">
+   					<img src="img1.jpg" alt="Tapkite LSA nariu">
+    				<div class="text">Tapkite LSA nariu</div>
+				</div>
+				<div class="mySlides fade">
+					<img src="img2.jpg" alt="Sekanti nuotrauka">
+    				<div class="text">Sekanti nuotrauka</div>
+    			</div>
+		<!-- Next and previous buttons -->
+  					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  			</div>
+			<aside>
+				<h2>Artimiausi renginiai</h2>
+				<a href="#">Visi renginiai</a>
+				<ul>
+					<li><a href="#"><img src="renginys1.png" alt="renginys1"></a></li>
+					<li><a href="#"><img src="renginys2.png" alt="renginys2"></a></li>
+					<li><a href="#"><img src="renginys3.png" alt="renginys3"></a></li>
+					<li><a href="#"><img src="renginys4.png" alt="renginys4"></a></li>
+				</ul>
+				<div>
+					<button type="submit">Registruotis i rengini</button>
+				</div>
+			</aside>
+		</section>
+		<main>
+			<h1>Naujienos</h1>
+				<a href="#">Naujienų archyvas</a>
+			<article>
+				<h2>Naujiena1</h2>
+				<time datetime="2020-01-01">Sausio 1</time>
+				<img src="img1.jpg" alt="img1">
+				<p>Tekstas Tekstas Tekstas Tekstas Tekstas </p> 
+			 	<a href="#">Skaityti daugiau...</a>
+			</article>
+			<article>
+				<h2>Naujiena2</h2>
+				<time datetime="2020-01-01">Sausio 1</time>
+				<video controls width="250">
+					<source src="some-video.ogg" type="video/ogg">
+				</video>
+				<p>Tekstas tekstas tekstas su tekstu</p>
+			 	<a href="#">Skaityti daugiau...</a>
+			</article>
+			<article>
+				<h2>Naujiena3</h2>
+				<time datetime="2020-01-01">Sausio 1</time>
+				<p>Tekstas Tekstas Tekstas Tekstas Tekstas</p>
+			 	<a href="#">Skaityti daugiau...</a>
+			</article>
+			<article>
+				<h2>Naujiena4</h2>
+				<time datetime="2020-01-01">Sausio 1</time>
+				<img src="img.jpg" alt="img2">
+				<p>Tekstas Tekstas Tekstas Tekstas Tekstas</p> 
+			 	<a href="#">Skaityti daugiau...</a>
+			</article>
+			<div class="pages">
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+			</div>
+		</main>
+		<section>
+			<div class="foto-gallery">
+				<h2>Nuotrauku galerija</h2>
+				<a href="#">Archyvas</a>
+					<div class="row">
+						<div class="column">
+						<img src="foto1.jpg" alt="foto1" onclick="myFunction(this);">
+						</div>
+						<div class="column">
+    					<img src="foto2.jpg" alt="foto2" onclick="myFunction(this);">
+  						</div>
+  						<div class="column">
+   						<img src="foto3.jpg" alt="foto3" onclick="myFunction(this);">
+  						</div>
+  						<div class="column">
+    					<img src="foto4.jpg" alt="foto4" onclick="myFunction(this);">
+  						</div>
+					</div>
+			</div>
+			<div class="bendraujame">
+				<h2>Bendraujame</h2>
+				<a href="#" target="_blank"><img src="veidas1.jpg" alt="veidas1"></a>
+				<a href="#" target="_blank"><img src="veidas2.jpg" alt="veidas2"></a>
+				<a href="#" target="_blank"><img src="veidas3.jpg" alt="veidas3"></a>
+				<a href="#" target="_blank"><img src="veidas4.jpg" alt="veidas4"></a>
+				<a href="#" target="_blank"><img src="veidas5.jpg" alt="veidas5"></a>
+				<a href="#" target="_blank"><img src="veidas6.jpg" alt="veidas6"></a>
+				<a href="#" target="_blank"><img src="veidas7.jpg" alt="veidas7"></a>
+				<a href="#" target="_blank"><img src="veidas8.jpg" alt="veidas8"></a>
+			</div>
+			<div class="nuorodos">
+				<h2>Naudingos nuorodos</h2>
+					<ul>
+						<li><a href="#">Linkas</a></li>
+						<li><a href="#">Linkas</a></li>
+						<li><a href="#">Linkas</a></li>
+						<li><a href="#">Linkas</a></li>
+						<li><a href="#">Linkas</a></li>
+						<li><a href="#">Linkas</a></li>
+						<li><a href="#">Linkas</a></li>
+						<li><a href="#">Linkas</a></li>
+					</ul>
+			</div>
+		</section>
+		<footer>
+			<div class="asociacija">
+				<p><a href="#" target="self">2015m. Lietuvos suzuki asociacija</a></p>
+			</div>
+			<div class="adresas">
+				<p>Vaistines skg. 6 Kaunas LT-44210</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
